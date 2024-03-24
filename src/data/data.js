@@ -53,7 +53,7 @@ export const tickets =
 			"departure": "Los Angeles",
 			"arrival": "Sydney",
 			"flight_duration_hours": 18,
-			"transfers": 3
+			"transfers": 1
 		},
 	]
 
