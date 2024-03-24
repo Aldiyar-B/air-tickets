@@ -1,7 +1,7 @@
 import React from "react";
 
 const TicketItem = ({ ticket }) => {
-	const { ID, price, departure, arrival, flight_duration_hours, transfers } = ticket;
+	const { price, departure, arrival, flight_duration_hours, transfers } = ticket;
 	// const { departure } = ticket;
 	return (
 		<div className="ticket">
@@ -10,7 +10,7 @@ const TicketItem = ({ ticket }) => {
 			<div className="ticket-info">
 				<div>Отправление: {departure}</div>
 				<div>Прибытие: {arrival}</div>
-				<div>Время полета: {flight_duration_hours}</div>
+				<div>Время полета: {flight_duration_hours} часов </div>
 				<div>Количество пересалок: {transfers}</div>
 			</div>
 

@@ -10,8 +10,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.ticket {
+.container {
   margin-left: 150px;
+}
+.ticket {
   max-width: 600px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -31,4 +33,7 @@ code {
 
 .ticket-info-item {
   margin-bottom: 8px;
+}
+
+.button {
 }
